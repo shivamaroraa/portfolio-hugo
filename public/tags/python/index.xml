@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Python on Shivam Arora</title>
+    <link>https://shiva-m.com/tags/python/</link>
+    <description>Recent content in Python on Shivam Arora</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://shiva-m.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arbitrage Trading Bot for Cryptocurrencies</title>
+      <link>https://shiva-m.com/projects/arbitrage-trading-bot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shiva-m.com/projects/arbitrage-trading-bot/</guid>
+      <description>Automated Arbitrage System for Cryptocurrency Markets</description>
+    </item>
+    
+    <item>
+      <title>Audio Emotion Recognition</title>
+      <link>https://shiva-m.com/projects/audio-emotion-recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shiva-m.com/projects/audio-emotion-recognition/</guid>
+      <description>Deep Learning-based Audio Emotion Detector</description>
+    </item>
+    
+    <item>
+      <title>Home Automation Web Application</title>
+      <link>https://shiva-m.com/projects/home-automation-web-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shiva-m.com/projects/home-automation-web-app/</guid>
+      <description>Centralized Control for Smart Home Devices</description>
+    </item>
+    
+    <item>
+      <title>PRO-Fitness</title>
+      <link>https://shiva-m.com/projects/pro-fitness/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shiva-m.com/projects/pro-fitness/</guid>
+      <description>Workout and Nutrition Tracker using Computer Vision</description>
+    </item>
+    
+    <item>
+      <title>Trainify</title>
+      <link>https://shiva-m.com/projects/trainify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shiva-m.com/projects/trainify/</guid>
+      <description>Web-based Machine Learning Toolkit</description>
+    </item>
+    
+  </channel>
+</rss>

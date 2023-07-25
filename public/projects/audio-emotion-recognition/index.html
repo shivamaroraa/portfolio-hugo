@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Audio Emotion Recognition | Shivam Arora</title>
+<meta name="keywords" content="Python, AI, CNN, neural networks, Flask, React.js, REST API">
+<meta name="description" content="Deep Learning-based Audio Emotion Detector">
+<meta name="author" content="Shivam Arora">
+<link rel="canonical" href="https://shiva-m.com/projects/audio-emotion-recognition/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a1f0eda2eb9f1e1e4e7a32fdb53c5b32f0d31b07dc7d9d97ec56e2beef740e8f.css" integrity="sha256-ofDtouufHh5OejL9tTxbMvDTGwfcfZ2X7Fbivu90Do8=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://shiva-m.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://shiva-m.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://shiva-m.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://shiva-m.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://shiva-m.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Audio Emotion Recognition" />
+<meta property="og:description" content="Deep Learning-based Audio Emotion Detector" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://shiva-m.com/projects/audio-emotion-recognition/" /><meta property="article:section" content="projects" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Audio Emotion Recognition"/>
+<meta name="twitter:description" content="Deep Learning-based Audio Emotion Detector"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Projects",
+      "item": "https://shiva-m.com/projects/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Audio Emotion Recognition",
+      "item": "https://shiva-m.com/projects/audio-emotion-recognition/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Audio Emotion Recognition",
+  "name": "Audio Emotion Recognition",
+  "description": "Deep Learning-based Audio Emotion Detector",
+  "keywords": [
+    "Python", "AI", "CNN", "neural networks", "Flask", "React.js", "REST API"
+  ],
+  "articleBody": "Overview The Audio Emotion Recognition system utilizes convolutional neural networks (CNN) and FastAI to analyze and classify human emotions from audio inputs. Designed for real-time analysis, the application serves as a bridge between advanced machine learning techniques and practical applications.\nFeatures and Technical Details Model Architecture: The system relies on a CNN model fine-tuned on spectrograms to identify seven distinct emotions, achieving a validation accuracy of 91.8%.\nWeb Application: A React.js front-end provides a user-friendly interface for real-time audio emotion analysis, streamlining the user interaction process.\nBackend Infrastructure: A Flask server supports the front-end, managing audio processing tasks and facilitating smooth communication with the deep learning model through a REST API.\nPotential Applications Given its high accuracy and real-time feedback, this system can be integrated into various platforms like customer service interfaces, entertainment platforms, and mental health apps to derive insights from user emotions.\n",
+  "wordCount" : "144",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Shivam Arora"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://shiva-m.com/projects/audio-emotion-recognition/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Shivam Arora",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://shiva-m.com/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://shiva-m.com/" accesskey="h" title="Shivam Arora (Alt + H)">Shivam Arora</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://shiva-m.com/experience" title="Experience">
+                    <span>Experience</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://shiva-m.com/education" title="Education">
+                    <span>Education</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://shiva-m.com/projects" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://shiva-m.com/tags" title="Keywords">
+                    <span>Keywords</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://shiva-m.com/">Home</a>&nbsp;»&nbsp;<a href="https://shiva-m.com/projects/">Projects</a></div>
+    <h1 class="post-title">
+      Audio Emotion Recognition
+    </h1>
+    <div class="post-meta">Shivam Arora
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="overview">Overview<a hidden class="anchor" aria-hidden="true" href="#overview">#</a></h2>
+<p>The Audio Emotion Recognition system utilizes convolutional neural networks (CNN) and FastAI to analyze and classify human emotions from audio inputs. Designed for real-time analysis, the application serves as a bridge between advanced machine learning techniques and practical applications.</p>
+<h2 id="features-and-technical-details">Features and Technical Details<a hidden class="anchor" aria-hidden="true" href="#features-and-technical-details">#</a></h2>
+<ul>
+<li>
+<p><strong>Model Architecture</strong>: The system relies on a CNN model fine-tuned on spectrograms to identify seven distinct emotions, achieving a validation accuracy of 91.8%.</p>
+</li>
+<li>
+<p><strong>Web Application</strong>: A React.js front-end provides a user-friendly interface for real-time audio emotion analysis, streamlining the user interaction process.</p>
+</li>
+<li>
+<p><strong>Backend Infrastructure</strong>: A Flask server supports the front-end, managing audio processing tasks and facilitating smooth communication with the deep learning model through a REST API.</p>
+</li>
+</ul>
+<h2 id="potential-applications">Potential Applications<a hidden class="anchor" aria-hidden="true" href="#potential-applications">#</a></h2>
+<p>Given its high accuracy and real-time feedback, this system can be integrated into various platforms like customer service interfaces, entertainment platforms, and mental health apps to derive insights from user emotions.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://shiva-m.com/tags/python/">Python</a></li>
+      <li><a href="https://shiva-m.com/tags/ai/">AI</a></li>
+      <li><a href="https://shiva-m.com/tags/cnn/">CNN</a></li>
+      <li><a href="https://shiva-m.com/tags/neural-networks/">neural networks</a></li>
+      <li><a href="https://shiva-m.com/tags/flask/">Flask</a></li>
+      <li><a href="https://shiva-m.com/tags/react.js/">React.js</a></li>
+      <li><a href="https://shiva-m.com/tags/rest-api/">REST API</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="https://shiva-m.com/">Shivam Arora</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

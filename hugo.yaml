@@ -1,0 +1,61 @@
+baseURL: 'https://shiva-m.com/'
+languageCode: 'en-us'
+title: Shivam Arora
+theme: PaperMod 
+paginate: 5
+
+menu:
+  main:
+
+    - identifier: experience
+      name: Experience
+      url: /experience
+      weight: 1
+    
+    - identifier: education
+      name: Education
+      url: /education
+      weight: 2
+
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 2
+    
+    - identifier: tags
+      name: Keywords
+      url: /tags
+      weight: 3
+  
+params:
+  keywords: ["Shivam Arora"]
+  author: ["Shivam Arora"]
+  paginate: 5
+  ShowBreadCrumbs: true
+  profileMode:
+    enabled: true
+    # title: 
+    subtitle:  Hey 👋 I am Shivam Arora, a tech enthusiast with a srong background in Software \& Web development, Artificial Intelligence and Data Science. Skilled in building intuitive applications and tackling challenging problems. I spend most of my day coding lines and trading bitcoins.
+
+    imageUrl: shivam.png
+    imageTitle: Shivam Arora - img
+    imageWidth: 120 
+    imageHeight: 120
+
+  socialIcons:
+    - name: linkedin
+      url: "https://linkedin.com/in/shivam-arora22/"
+    
+    - name: github
+      url: "https://github.com/shivamaroraa"
+    
+    - name: email
+      url: mailto:shivam.arora98@outlook.com
+   
+    - name: twitter
+      url: "https://github.com/shivamaroraa"
+    
+    - name: instagram
+      url: mailto:shivam.arora98@outlook.com
+    
+
