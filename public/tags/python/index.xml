@@ -25,6 +25,15 @@
     </item>
     
     <item>
+      <title>EZPySQL</title>
+      <link>https://shiva-m.com/projects/ezpysql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shiva-m.com/projects/ezpysql/</guid>
+      <description>EZPySQL is a Python module that simplifies interactions with SQLite and MySQL databases.</description>
+    </item>
+    
+    <item>
       <title>Home Automation Web Application</title>
       <link>https://shiva-m.com/projects/home-automation-web-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
