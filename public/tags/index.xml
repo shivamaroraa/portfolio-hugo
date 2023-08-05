@@ -25,7 +25,7 @@
     </item>
     
     <item>
-      <title>computer-vision</title>
+      <title>Computer-Vision</title>
       <link>https://shiva-m.com/tags/computer-vision/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -88,11 +88,29 @@
     </item>
     
     <item>
+      <title>Firebase</title>
+      <link>https://shiva-m.com/tags/firebase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shiva-m.com/tags/firebase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Flask</title>
       <link>https://shiva-m.com/tags/flask/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shiva-m.com/tags/flask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frequency Domain Filters</title>
+      <link>https://shiva-m.com/tags/frequency-domain-filters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shiva-m.com/tags/frequency-domain-filters/</guid>
       <description></description>
     </item>
     
@@ -111,6 +129,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shiva-m.com/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Processing</title>
+      <link>https://shiva-m.com/tags/image-processing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shiva-m.com/tags/image-processing/</guid>
       <description></description>
     </item>
     
@@ -210,6 +237,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shiva-m.com/tags/react.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Redux</title>
+      <link>https://shiva-m.com/tags/redux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shiva-m.com/tags/redux/</guid>
       <description></description>
     </item>
     

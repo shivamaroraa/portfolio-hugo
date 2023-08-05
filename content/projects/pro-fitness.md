@@ -5,6 +5,9 @@ tags: ["Python", "computer-vision", "CNN", "React.js", "ML5.js", "PoseNet", "Jav
 draft: false
 ---
 
+
+#### Application URL: https://pro-fitness.shiva-m.com
+
 ## Overview
 
 PRO-Fitness is a cross-platform application designed to revolutionize personal fitness routines by leveraging computer vision and deep learning for real-time workout tracking.

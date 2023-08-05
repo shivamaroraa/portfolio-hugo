@@ -23,10 +23,13 @@ menu:
       weight: 2
     
     - identifier: tags
-      name: Keywords
+      name: Skills
       url: /tags
       weight: 3
-  
+
+markup:
+  defaultMarkdownHandler: goldmark
+
 params:
   keywords: ["Shivam Arora"]
   author: ["Shivam Arora"]
@@ -35,7 +38,7 @@ params:
   profileMode:
     enabled: true
     # title: 
-    subtitle:  Hey 👋 I am Shivam Arora, a tech enthusiast with a srong background in Software \& Web development, Artificial Intelligence and Data Science. Skilled in building intuitive applications and tackling challenging problems. I spend most of my day coding lines and trading bitcoins.
+    subtitle:  Hey 👋 I am Shivam Arora, a tech enthusiast with a strong background in Software \& Web development, Artificial Intelligence and Data Science. Skilled in building intuitive applications and tackling challenging problems. I spend most of my day coding lines and trading bitcoins.
 
     imageUrl: shivam.png
     imageTitle: Shivam Arora - img

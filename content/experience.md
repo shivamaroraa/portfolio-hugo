@@ -33,3 +33,13 @@ url: /experience/
 - Developed and deployed scalable infrastructure using **Flask** and **server-sided events**, optimizing algorithms for processing **REST API** data from various crypto-exchanges.
 - Built a **React.js** web application to visualize real-time data from the **Flask** back-end server and implemented a secure authentication framework using **IP address whitelisting** and **Telegram's API** for **2FA**.
 - Continually adapted and enhanced the system by incorporating new features based on organizational needs.
+
+
+---
+## Freelance: Web Developer
+### HM General Trading FZE | Sharjah, U.A.E.
+#### January 2021 - December 2021
+
+- Designed and developed a user-friendly website for the company using **React.js** and **Django** from scratch.
+- Designed and implemented a custom framework for the Contact Us component.
+- Developed a bespoke Admin panel and provided comprehensive training to the client, enabling them to effortlessly manage website updates autonomously
